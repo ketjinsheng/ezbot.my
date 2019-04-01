@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="about.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us</title>
+</head>
+<body>
+    <div class="heading">
+        <div class="img">
+        <a href="index.php"><img src="obott.png" alt="logo" class="logo"></a>
+       </div>
+        <div class="button">
+        <a href="index.php" class="setting">Home</a>
+         <a href="login.php" class="setting">Login</a>
+           <a href="signup.html" class="setting">Sign Up</a>
+           <a href="about-us.html" class="setting">About Us</a>
+        
+        </div>
+      </div>
+
+<div class="bb">     
+            <div class="tab">
+              <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">What’s EZ Bot?</button>
+              <button class="tablinks" onclick="openCity(event, 'Paris')">Why EZ Bot</button>
+              <button class="tablinks" onclick="openCity(event, 'Tokyo')">What we offer</button>
+              <button class="tablinks" onclick="openCity(event, 'a')">Supported Crypto Exchange</button>
+            </div>
+            
+            
+            
+            <div id="Paris" class="tabcontent">
+             <ul>
+                  <li>EZ bot supports Windows, Mac and Linux</li>
+                  <li>Automate your crypto trading and get passive income</li>
+                  <li>Execute 8 precoded professional trading strategies</li>
+                  <li>One time payment / Lifetime license</li>
+                  <li>Free access to support Telegram, Email, Whatsapp and Skype</li>
+              </ul>
+            </div>
+
+            <div id="London" class="tabcontent">
+             <p>
+                        Crypto trading automation is a software based on executing trading strategies thus solving <br>
+                    
+                    all challenges that traders face. In simple terms, EZ Bot will be able to look for the easiest <br> 
+                    
+                    and quickest way to track price fluctuations on cryptocurrency trading platforms. <br> <br>
+
+                        Unlike your typical stock exchange markets, the cryptocurrency market is well known for its <br> 
+                    
+                    aggressive price fluctuation, coupled with the uncertainty of news and financial reports.<br>
+                    
+                    Therefore, it makes it difficult to track market trends. The only way is to constantly track and <br> 
+                    
+                    keep a close eye on cryptocurrency news reports. <br> <br>
+                    
+                        This is the tedious and frustrating part when it comes to crypto trading. In the end of the day, <br> 
+                    
+                    we are still human we still need our sleep. Cryptocurrency prices can jump from 1 to 100 in <br>
+                    
+                    just a single night. Imagine waking up in the morning realizing you have lost this opportunity. <br> <br> 
+                    
+                        EZ Bot is here to solve all problems that crypto traders face. EZ Bot is a robot created to <br>
+    
+                    change traders life forever. EZ Bot is an automated trading platform that assist traders trade <br>
+                    
+                    24 hours every single day. Not to mention, it is also able to trade at many different <br> 
+                    
+                    cryptocurrency markets, and help traders monitor the market at all times, even when you are offline. <br> <br>
+                    
+                        So kick back, relax, and let EZ Bot do the hard work for you.          
+                   
+                 
+                
+       
+            </p>
+            </div>
+
+            <div id="Tokyo" class="tabcontent">
+              <ul>
+                  <li>A variety of supported crypto exchanges</li>
+                  <li>Large selection of indicators</li>
+                  <li>24/7 live support</li>
+              </ul>
+            </div>
+
+            <div id="a" class="tabcontent">
+
+                   <ul>
+                       <li>Binance</li>
+                       <li>More to be added soon!</li>
+                   </ul>
+                  </div>
+
+                  <script>
+                    function openCity(evt, cityName) {
+                      var i, tabcontent, tablinks;
+                      tabcontent = document.getElementsByClassName("tabcontent");
+                      for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                      }
+                      tablinks = document.getElementsByClassName("tablinks");
+                      for (i = 0; i < tablinks.length; i++) {
+                        tablinks[i].className = tablinks[i].className.replace(" active", "");
+                      }
+                      document.getElementById(cityName).style.display = "block";
+                      evt.currentTarget.className += " active";
+                    }
+
+                    document.getElementById("defaultOpen").click();
+                    </script>
+</div>
+<div class="end">
+        <img src="symbols6.png" alt="symbols" class="symbol6">
+</div>                    
+                       
+      
+</body>
+</html>

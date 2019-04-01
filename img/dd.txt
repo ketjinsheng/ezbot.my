@@ -1,0 +1,50 @@
+<?php
+
+// Initialize the session
+ 
+// Check if the user is already logged in, if yes then redirect him to welcome page
+// if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
+//     header("location: index.php");
+//     exit;
+// }
+
+// Include config file
+require_once "db_config.php";
+$msg = '';
+
+// Define variables and initialize with empty values
+$username = $password = "";
+$username_err = $password_err = "";
+  
+//process form
+if( isset( $_POST['username'] )) {
+	$username = $_POST['username'];
+	$password = $_POST['password'];
+
+	//now fiter these variable for security
+
+	$username = strip_tags(mysqli_real_escape_string($conn,trim($username)));
+	$password = strip_tags(mysqli_real_escape_string($conn,trim($password)));
+
+	//query
+	$query = "SELECT * FROM EZ WHERE username='".$username."'";
+	// echo $username;
+	$tbl = mysqli_query($conn,$query) ;
+	if( mysqli_num_rows($tbl) > 0){
+		$row = mysqli_fetch_array($tbl);
+		$password_hash = $row['password'];
+		// echo $password;
+		// echo $password_hash;
+		$cp = '$2y$10$q6xpR6X3p.4KjVGMm1NmV.3Mv1on.CasPmjrvYmvSOC';
+		if (password_verify('123abc', $cp) ) {
+				echo 'Password is valid!';
+		} else {
+				echo 'Invalid password.';
+		}
+	}
+	else{
+		$msg = 'email is not valid';
+		echo $msg;
+	}
+}
+?>

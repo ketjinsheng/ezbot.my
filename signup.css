@@ -1,0 +1,159 @@
+ /*for desktop*/
+ @media only screen and (min-width:900px) {
+    * {margin: 0;}
+    
+    
+    
+     
+    body {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .heading {
+        list-style-type: none;
+        overflow: hidden;
+        background-color:rgb(12, 156, 223);
+        padding: 20px;
+        
+    }
+    
+    .img{
+        float: left;
+        
+    }
+    
+    .button{
+        float:right;
+        margin-top: 70px; 
+        margin-right: 50px;
+    
+    }
+    
+    a.setting{
+        font-size: 15px;
+        color: white;
+        text-align:center;
+        text-decoration: none;
+        border: 1px solid white;
+        border-radius: 20px;
+        padding: 10px 20px;
+        margin-right: 30px;
+       
+        
+        
+    }
+
+    a.setting:hover {
+        background-color: white;
+        color: rgb(4, 104, 255);
+    }
+    
+    
+
+    .logo {
+        width: 200px;
+        height: 100px;
+        margin-left: 100px;
+        border: 1px solid white;
+        border-radius: 20px;
+        padding: 5px;
+        background-color: white;
+       
+     
+    }
+
+    .logo:hover{
+        background-color: rgb(221, 221, 221);
+    }
+    
+    .container1 {
+        background-color:rgb(25, 133, 255);
+        padding:30px;
+        padding: auto;
+    }
+    
+    .container2 {
+        background-color:white;
+        width: 350px;;
+        height: 500px;
+        margin:auto;
+        border-radius:26px;
+        text-align: center;
+        padding:16px
+    }
+    
+    
+    .form-group{
+        margin: 20px;
+    }
+
+    .form-control{
+        width: 100%;
+        padding: 10px;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+    }
+    
+    .psw{
+        width: 200px;
+        padding: 10px;
+        margin: 10px;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+    }
+
+ 
+
+
+    .signupbtn{
+        width:200px;
+        border-radius:20px;
+        color:white;
+        padding: 10px;
+        background-color:rgb(25, 133, 255);
+        border: none;
+        padding:auto;
+    }
+
+
+    .symbol4{
+        width: 20px;
+        
+        
+    }
+    
+    .select{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid black;
+        width: 200px;
+        background-color: rgb(204, 198, 198);
+        padding: auto;
+    }
+    
+    
+    
+    .end {
+        background-color:rgb(25, 133, 255);
+        padding:auto;
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+    
+    .symbol6 {
+        width: 300px;
+        padding: auto;
+        margin:auto ;
+        position: relative;
+        grid-area: 1/5/1/5;
+    }
+        
+    }
+
+

@@ -1,0 +1,63 @@
+div{
+    
+    height:50px;
+   background-color:orange; 
+   width:200px;
+    position:relative;
+    text-align:center;
+    left:100px;
+    border-top-left-radius:10px;
+     border-top-right-radius:10px;
+}
+div:after,div:before{
+            content:"";
+   position: absolute;
+    width: 20px; 
+  height: 20px;
+  /* Circles are circular */
+  -webkit-border-radius: 10px;
+  -moz-border-radius:    10px;
+  border-radius:         10px;
+  background: #fff;
+     z-index:3;
+}
+
+div:after{
+    left:-20px;
+     top:20px; 
+  }
+  div:before{
+    left:200px;
+    top:20px;   
+  }
+
+  div a{
+    
+    height:45px;
+  background-color:red; 
+  width:180px;
+   position:absolute;
+   text-align:center;
+   left:8px;
+   border-radius:10px;
+   margin:3px;
+   z-index:2;
+   
+}
+div a:after,div a:before{
+    content:"";
+   position:absolute;
+  width: 20px;
+   height: 20px;
+   background: orange;
+   z-index:2;
+   
+}
+div a:after{
+ left:-25px;
+  top:27px; 
+}
+div a:before{
+ left:185px;
+ top:27px;   
+}

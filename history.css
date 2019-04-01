@@ -1,0 +1,170 @@
+* {margin: 0;}
+
+.title-blank{
+    font-size: 30px;
+    background-color: rgb(5, 119, 172);
+    overflow: hidden;
+    padding: 20px;
+   
+  
+}
+
+.control-bot{
+    float: left;
+ }
+ 
+ .bot-manager{
+     color: white;
+     font-size: 30px;
+     text-decoration: none;
+ }
+ 
+ .control-dashboard{
+     float: right;
+     margin-right: 100px;
+     margin-top: 10px;
+     
+ }
+ 
+ .dashboard{
+     font-size: 30px;
+     text-decoration: none;
+     color: white;
+     text-align: center;
+     
+     
+ }
+ 
+ .control-history{
+     float: right;
+     margin-right: 100px;
+     margin-top: 10px;
+     
+ }
+ 
+ .history{
+     font-size: 30px;
+     text-decoration: none;
+     color: white;
+     text-align: center;
+     
+     
+ }
+ 
+ .control-logout{
+     float: right;
+     margin-top: 10px;
+    
+ }
+ 
+ .logout{
+     font-size: 30px;
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .control-profile{
+     float: right;
+     margin-right: 100px;
+     margin-top: 10px;
+     
+ }
+ 
+ .profile{
+     font-size: 30px;
+     text-decoration: none;
+     color: white;
+     text-align: center;
+     
+     
+ }
+
+ .control-title{
+     text-align: center;
+ }
+
+ .title{
+     font-size: 50px;
+     color: black;
+ }
+ 
+ .control-ftable{
+    
+ }
+
+ .ftable{
+     width: 100%;
+     text-align: center;
+     padding: 20px;
+  
+ }
+
+ .ftable-tr{
+    border: 1px solid black;
+ }
+
+ .ftable-th{
+    border: 1px solid black;
+ }
+
+ .ftable-td{
+    border: 1px solid black;
+ }
+
+.control-to{
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+
+
+}
+
+.to{
+    padding: 10px;
+}
+
+.control-from{
+    float:right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+  
+.from{
+    padding: 10px;
+    
+}
+
+.control-table{
+    margin-top: 10%; 
+   
+
+}
+
+.trading{
+    width: 100%;
+    border-collapse: collapse;
+  
+
+}
+
+.trading tr:nth-child(even){
+background-color: rgb(243, 243, 243);
+}
+
+.trading tr:hover{
+    background-color:rgb(235, 233, 233);
+}
+
+.trading th{
+  background-color: rgb(0, 80, 228);
+  color: white;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+.trading td{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+

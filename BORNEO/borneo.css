@@ -1,0 +1,163 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #191818;
+
+
+
+}
+
+
+.a{ 
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background: linear-gradient(#473143 0%,#191819 30%);
+    position: absolute;
+    top: 10%;
+    left: 30%;
+
+}
+
+.a:before
+{
+
+    content: "";
+    height: 600px;
+    width: 600px;
+    background: linear-gradient(#ffceda 0%,#fd87a1 5%, #3f1b31 25%);
+    border-radius: 50%;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-filter: blur(7px);
+    z-index: -1;
+}
+
+.a:after
+{
+    width: 415px;
+    top: 35%;
+    -webkit-filter: blur(14px);
+    opacity: .3;
+}
+
+.txt{
+    text-align:center; 
+    font-family: sans-serif;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 20px;
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+
+}
+
+.txt2{
+    text-align:center; 
+    font-family: sans-serif;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 20px;
+    position:absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20%;
+    left: 43%;
+
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #191818;
+
+
+
+}
+
+
+.a{ 
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background: linear-gradient(#473143 0%,#191819 30%);
+    position: absolute;
+    top: 10%;
+    left: 28%;
+
+}
+
+.a:before
+{
+
+    content: "";
+    height: 600px;
+    width: 600px;
+    background: linear-gradient(#ffceda 0%,#fd87a1 5%, #3f1b31 25%);
+    border-radius: 50%;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-filter: blur(7px);
+    z-index: -1;
+}
+
+.a:after
+{
+    width: 415px;
+    top: 35%;
+    -webkit-filter: blur(14px);
+    opacity: .3;
+}
+
+.txt{
+    text-align:center; 
+    font-family: sans-serif;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 15px;
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+
+}
+
+.txt2{
+    text-align:center; 
+    font-family: sans-serif;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 15px;
+    position:absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20%;
+    left: 42%;
+
+}
+
+
+ 

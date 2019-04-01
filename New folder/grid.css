@@ -1,0 +1,505 @@
+*{box-sizing: border-box;}
+*{font-family: Verdana;}
+
+
+body{
+    background-color:black;
+    color: white;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 35px auto;
+}
+
+.header{
+   display: grid;
+   grid: auto auto auto auto auto;
+}
+
+.hrow1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: blueviolet;
+
+
+}
+
+.welcome{
+    font-size: 20px;
+    text-align: center;
+    grid-area: 1/3/1/3;
+}
+
+.logout{
+    font-size: 20px;
+    text-align: center;
+    grid-area: 1/4/1/4;
+
+}
+
+.hrow2{
+    display: grid;
+}
+
+.wlt{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+
+}
+
+.hrow2txt{ 
+    text-align: center;
+   color:skyblue;
+   font-size: 20px;
+   grid-area: 1/3/1/3;
+}
+
+
+
+.exc{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto;
+}
+
+.exc1{
+    grid-area: 1/1/1/1;
+}
+
+.exc2{
+    grid-area: 1/2/1/2;
+}
+
+.exc3{
+    grid-area: 2/1/2/1;
+}
+
+input[type=float]{
+    border: none;
+    border-bottom: 1px solid yellowgreen;
+    color: yellowgreen;
+    background-color: black;
+    font-size: 20px;
+    width: 100px;
+    margin: 10px;
+}    
+
+.exc4{
+    grid-area: 2/2/2/2;
+}
+
+.otc{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto; 
+    text-align: center;
+
+}
+
+.otc h1{
+    grid-area: 1/3/1/3;
+}
+
+.otc p{
+    grid-area: 2/3/2/3;
+}
+
+
+.min{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto; 
+    text-align: center;
+
+}
+
+.min h1{
+    grid-area: 1/3/1/3;
+}
+
+.min p{
+    grid-area: 2/3/2/3;
+}
+
+.net{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto; 
+    text-align: center;
+
+}
+
+.net h1{
+    grid-area: 1/3/1/3;
+}
+
+.net p{
+    grid-area: 2/3/2/3;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+    background-color: rgb(32, 32, 32);
+}
+
+.t1{
+    background-color: rgb(32, 32, 32);
+    color: aqua;
+    font-size: 20px;
+    border: none;
+}
+
+.t2{
+    background-color: rgb(32, 32, 32);
+    color: yellowgreen;
+    border: none;
+    font-size: 20px;
+
+}
+
+ .t3{
+    background-color:rgb(32, 32, 32);
+    color: blue;
+    font-size: 20px;
+    border: none;
+}
+
+.t4{
+    background-color: rgb(32, 32, 32);
+    color: orange;
+    font-size: 20px;
+    border: none;
+}
+
+.t5{
+    background-color: rgb(32, 32, 32);
+    color: hotpink;
+    font-size: 20px;
+    border: none;
+}
+
+.t1:hover{
+    border: none;
+    background-color: green;
+    padding: auto;
+}
+
+.t2:hover{
+    border: none;
+    background-color: green;
+    padding: auto;
+}
+
+.t3:hover{
+    border: none;
+    background-color: green;
+    padding: auto;
+}
+
+.t4:hover{
+    border: none;
+    background-color: green;
+    padding: auto;
+}
+
+.t5:hover{
+    border: none;
+    background-color: green;
+    padding: auto;
+}
+
+.section{
+    display: grid;
+}
+
+.ticker{
+    display: grid;
+    grid-template-columns:auto auto;
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+.item{
+    display: grid;
+    grid-template-columns: 80px 50px;
+    font-size: 15px;
+    padding: 5px 5px;
+    align-content: center;
+    margin: 5px 5px
+}
+
+.item:hover{
+    background-color: plum;
+}
+
+.itemtxt{
+    font-size: 20px;
+}
+
+.icon{
+    width: 50px;
+    height: auto;
+    padding: 10px 0px;
+}
+
+/*for desktop*/
+@media only screen and (min-width:660px) {
+
+    body{
+        background-color:black;
+        color: white;
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto
+    }
+    
+    .header{
+       display: grid;
+       grid: auto auto auto auto auto;
+    }
+    
+    .hrow1{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        color: blueviolet;
+    
+    
+    }
+    
+    .welcome{
+        font-size: 20px;
+        text-align: center;
+        grid-area: 1/3/1/3;
+    }
+    
+    .logout{
+        font-size: 20px;
+        text-align: center;
+        grid-area: 1/4/1/4;
+    
+    }
+    
+    .hrow2{
+        display: grid;
+    }
+    
+    .wlt{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-gap: 10px;
+        padding: 10px;
+    
+    }
+    
+    .hrow2txt{ 
+        text-align: center;
+       color:skyblue;
+       font-size: 20px;
+       grid-area: 1/3/1/3;
+    }
+    
+    
+    
+    .exc{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 20px 20px;
+        text-align: center;
+        padding: 50px;
+        font-size: 30px;
+    }
+    
+    .exc1{
+        grid-area: 1/1/1/1;
+    }
+    
+    .exc2{
+        grid-area: 1/2/1/2;
+    }
+    
+    .exc3{
+        grid-area: 2/1/2/1;
+    }
+    
+    input[type=float]{
+        border-top: none;
+        border-right: none;
+        border-left:none;
+        border-bottom: 1px solid yellowgreen;
+        background-color: black;
+        font-size: 30px;
+        width: 30%;
+    }    
+    
+    .exc4{
+        grid-area: 2/2/2/2;
+    }
+    
+    .otc{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto; 
+        text-align: center;
+    
+    }
+    
+    .otc h1{
+        grid-area: 1/3/1/3;
+    }
+    
+    .otc p{
+        grid-area: 2/3/2/3;
+    }
+    
+    
+    .min{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto; 
+        text-align: center;
+    
+    }
+    
+    .min h1{
+        grid-area: 1/3/1/3;
+    }
+    
+    .min p{
+        grid-area: 2/3/2/3;
+    }
+    
+    .net{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto; 
+        text-align: center;
+    
+    }
+    
+    .net h1{
+        grid-area: 1/3/1/3;
+    }
+    
+    .net p{
+        grid-area: 2/3/2/3;
+    }
+    
+    .nav{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        padding: 10px;
+        background-color: rgb(32, 32, 32);
+    }
+    
+    .t1{
+        background-color: rgb(32, 32, 32);
+        color: aqua;
+        font-size: 20px;
+        border: none;
+    }
+    
+    .t2{
+        background-color: rgb(32, 32, 32);
+        color: yellowgreen;
+        border: none;
+        font-size: 20px;
+    
+    }
+    
+     .t3{
+        background-color:rgb(32, 32, 32);
+        color: blue;
+        font-size: 20px;
+        border: none;
+    }
+    
+    .t4{
+        background-color: rgb(32, 32, 32);
+        color: orange;
+        font-size: 20px;
+        border: none;
+    }
+    
+    .t5{
+        background-color: rgb(32, 32, 32);
+        color: hotpink;
+        font-size: 20px;
+        border: none;
+    }
+    
+    .t1:hover{
+        border: none;
+        background-color: green;
+        padding: auto;
+    }
+    
+    .t2:hover{
+        border: none;
+        background-color: green;
+        padding: auto;
+    }
+    
+    .t3:hover{
+        border: none;
+        background-color: green;
+        padding: auto;
+    }
+    
+    .t4:hover{
+        border: none;
+        background-color: green;
+        padding: auto;
+    }
+    
+    .t5:hover{
+        border: none;
+        background-color: green;
+        padding: auto;
+    }
+    
+    .section{
+        display: grid;
+    }
+    
+    .ticker{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding: 10px;
+        grid-gap: 10px;
+    }
+    
+    .item{
+        display: grid;
+        grid-template-columns: 80px 50px;
+        font-size: 15px;
+        padding: 5px 5px;
+        align-content: center;
+        margin: 5px 5px
+    }
+    
+    .item:hover{
+        background-color: plum;
+    }
+    
+    .itemtxt{
+        font-size: 20px;
+    }
+    
+    .icon{
+        width: 50px;
+        height: auto;
+        padding: 10px 0px;
+    }
+}
+
+
+
+
+

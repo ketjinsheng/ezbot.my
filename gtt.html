@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        let startDateUI = $("#startdate_datepicker").datepicker({
+            numberOfMonths:[1, 2],
+            todayHighlight: true,
+            beforeShowDay: function (calDate) {
+                return calDate - new Date() < 0 ? [false, '', ''] : [true, '','']
+            }
+          });
+          $("#enddate_datepicker").datepicker({
+            numberOfMonths:[1, 2],
+            todayHighlight: true,
+            beforeShowDay: function (calDate) {
+                let selectedStartDate = $( "#startdate_datepicker" ).datepicker( "getDate" )
+                return calDate - selectedStartDate < 0 ? [false, 'disable-day', 'not available day!!!'] : [true, '','']
+            }
+          });
+          </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <link href="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.css" rel="stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+          <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <div class="dates">
+           <div class="start_date" style="width:50%;margin-right:3%;">
+              <input readonly="readonly" class="form-control start_date  mb-4" type="text" placeholder="start date" id="startdate_datepicker">
+           </div>
+           <div class="end_date" style="width:50%;margin-left:3%;">
+              <input readonly="readonly" class="form-control  end_date  mb-4" type="text" placeholder="end date" id="enddate_datepicker">
+           </div>
+        </div>
+</body>
+</html>
